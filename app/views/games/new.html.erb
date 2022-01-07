@@ -1,5 +1,27 @@
 <h1>New Game</h1>
 
+<h2>Pseudo Code</h2>
+<ol>
+  <li>Build randomize array with 5 vowels and 5 consonants</li>
+  <li>Retrieve params input and randomized array</li>
+  <li>Compare if input is constructivle with randomized array</li>
+  <li>Use API to see if word exist</li>
+  <li>Return score</li>
+ </ol>
+
+<p>
+  So to store the information it might be
+  better to store each randomized alphabet
+  in an array so we can compare it to the
+  API library.
+</p>
+ <ol>
+  <li>The word can’t be built out of the original grid</li>
+  <li>The word is valid according to the grid, but is not a valid English word</li>
+  <li>The word is valid according to the grid and is an English word</li>
+ </ol>
+
+
 <div class="random-alphabets">
   <ul>
     <li><%= @alphabet_array.sample %></li>
